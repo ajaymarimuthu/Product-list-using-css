@@ -1,0 +1,76 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    font-family: 'Inter',sans-serif;
+    line-height: 1;
+
+}
+
+.container{
+    width: 1000px;
+    /* background-color: bisque; */
+    /* border: 2px solid red; */
+    margin: 80px auto;
+    padding: 0.25em;
+}
+
+header{
+    text-align: center;
+    padding: 0.75em;    
+    background-color: bisque;
+    /* border: 2px solid green; */
+    margin: 15px;
+}
+
+button{
+    color: white;
+    background-color: red;
+    padding: 3px 15px;
+    margin: 20px;
+    border: red;
+}
+
+p{
+    
+    font-size: 12px;
+}
+
+.cost{
+    margin-left: 37px;
+    font-size: 12px;
+}
+
+img{
+    width: 85%;
+}
+
+.text-2{
+    margin-top: 20px;
+}
+
+.text-3{
+    margin-top: 30px;
+}
+
+.text-4{
+    margin-top: 18px;
+}
+
+
+
+
+.items-list{
+    display: flex;
+    flex-direction: row;
+ 
+    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+}
+ 
